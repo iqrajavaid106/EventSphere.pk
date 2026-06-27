@@ -70,4 +70,4 @@ export const config = {
   ],
 }
 
-export default proxy;
+export default middleware;
