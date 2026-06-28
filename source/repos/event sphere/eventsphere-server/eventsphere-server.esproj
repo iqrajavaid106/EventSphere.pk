@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.4902498">
+  <ItemGroup>
+    <None Include="..\..\..\..\OneDrive\Desktop\eventsphere\client\src\api\client.js">
+      <Link>client.js</Link>
+    </None>
+  </ItemGroup>
+</Project>
