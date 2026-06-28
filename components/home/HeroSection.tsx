@@ -25,8 +25,8 @@ export default function HeroSection({
   const [gpsLoading, setGpsLoading] = useState(false)
   const [locationStatus, setLocationStatus] = useState('')
 
-  const popularCities = ['San Francisco', 'New York', 'London', 'Toronto', 'Tokyo']
-
+  const popularCities = ['Lahore', 'Karachi', 'Islamabad', 'Rawalpindi', 'Faisalabad']
+  
   const handleGPSLocation = () => {
     if (!navigator.geolocation) {
       setLocationStatus('Geolocation is not supported by your browser.')
