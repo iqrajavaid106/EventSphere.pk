@@ -16,7 +16,7 @@ export function useUser() {
       // Also fetch profile
       const { data: profile } = await supabase
   .from('profiles')
-  .select('*, roles:role_id(name)')
+  .select('*')
   .eq('id', user.id)
   .single()
 
