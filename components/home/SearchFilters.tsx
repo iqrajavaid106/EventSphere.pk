@@ -18,8 +18,8 @@ export default function SearchFilters({
   dateFilter,
   setDateFilter
 }: SearchFiltersProps) {
-  const categories = ['All', 'Technology', 'Music', 'Finance']
-  const cities = ['All', 'San Francisco', 'New York', 'London', 'Toronto', 'Tokyo']
+  const categories = ['All', 'Technology', 'Music', 'Finance', 'Sports', 'Food', 'Other']
+    const cities = ['All', 'Lahore', 'Karachi', 'Islamabad', 'Rawalpindi', 'Faisalabad']
 
   return (
     <div className="w-full bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 rounded-xl p-4 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
